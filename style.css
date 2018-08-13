@@ -55,7 +55,7 @@ body
 }
 #window #content #sidebar
 {
-	width: 220px;
+	width: 170px;
 	background-color: #182B41;
 	float: left;
 }
@@ -157,14 +157,14 @@ body
 #window #content #market
 {
 	background-color: white;
-	width: calc(100% - 470px);
+	width: calc(100% - 420px);
 	height: auto;
 	float: left;
 }
 #window #content #market #colum-left
 {
 	float: left;
-	width: 40%;
+	width: 20%;
 }
 #window #content #market #colum-left .image
 {
@@ -180,7 +180,7 @@ body
 	margin: 20px;
 	padding-left: 40px;
 	float: right;
-	width: calc(50% - 40px);
+	width: calc(80% - 100px);
 }
 #window #content #market #stars
 {
@@ -195,7 +195,7 @@ body
 }
 #window #content #market .title-header
 {
-	width: 300px;
+	width: 80%;
 	height: 26px;
 	background-color: #435264;
 	margin-bottom: 11px;
