@@ -52,8 +52,6 @@ body
 	background-color: #182B41;
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
-	padding-top: 20px;
-	padding-bottom: 20px;
 }
 .window .content .sidebar
 {
@@ -103,4 +101,47 @@ body
 	float: left;
 	margin-left: 15px;
 	background-color: #314E69;
+}
+.window .content .friend
+{
+	width: 250px;
+	background-color: #182F46;
+	float: left;
+	height: 500px;
+}
+.window .content .friend ul.list
+{
+	width: 100%;
+	float: left;
+}
+.window .content .friend ul.list li
+{
+	list-style: none;
+	width: 100%;
+	float: left;
+}
+.window .content .friend ul.list li .image
+{
+	margin: 20px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #33516E;
+	float: left;
+}
+.window .content .friend ul.list li .title
+{
+	width: 150px;
+	height: 14px;
+	float: left;
+	background-color: #33516E;
+	margin-top: 23px;
+}
+.window .content .friend ul.list li .text
+{
+	margin-top: 7px;
+	width: 110px;
+	height: 11px;
+	float: left;
+	background-color: #33516E;
 }
