@@ -41,7 +41,66 @@ body
 	display: inline-block;
 	width: 14px;
 	height: 14px;
-	background-color: red;
+	background-color: #1C3E5D;
 	border-radius: 50%;
 	margin-right: 5px;
+}
+.window .content
+{
+	width: 100%;
+	float: left;
+	background-color: #182B41;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.window .content .sidebar
+{
+	width: 220px;
+	background-color: #182B41;
+	float: left;
+}
+.window .content .sidebar ul.list
+{
+	float: left;
+}
+.window .content .sidebar ul.list li
+{
+	list-style: none;
+	width: 100%;
+	float: left;
+	margin-top: 18px;
+}
+.window .content .sidebar ul.list li .icon
+{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-left: 25px;
+	border-radius: 50%;
+}
+.window .content .sidebar ul.list li .icon-1
+{
+	background-color: #3BC0E4;
+}
+.window .content .sidebar ul.list li .icon-2
+{
+	background-color: #8ABF5B;
+}
+.window .content .sidebar ul.list li .icon-3
+{
+	background-color: #BA3087;
+}
+.window .content .sidebar ul.list li .icon-4
+{
+	background-color: #F6B26B;
+}
+.window .content .sidebar ul.list li .text
+{
+	width: 90px;
+	height: 12px;
+	float: left;
+	margin-left: 15px;
+	background-color: #314E69;
 }
