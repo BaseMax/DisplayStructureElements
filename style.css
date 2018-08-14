@@ -53,11 +53,20 @@ body
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
 }
+#window #content
+{
+	background-color: white;
+}
 #window #content #sidebar
 {
 	width: 170px;
+	height: 500px;
+	left: 0px;
+	top: 0px;
+	position: relative;
 	background-color: #182B41;
 	float: left;
+	border-bottom-left-radius: 25px;
 }
 #window #content #sidebar ul.list
 {
@@ -105,9 +114,9 @@ body
 #window #content #friend
 {
 	width: 250px;
+	height: 500px;
 	background-color: #182F46;
 	float: left;
-	height: 500px;
 }
 #window #content #friend ul.list
 {
@@ -158,7 +167,7 @@ body
 {
 	background-color: white;
 	width: calc(100% - 420px);
-	height: auto;
+	height: 500px;
 	float: left;
 }
 #window #content #market #colum-left
@@ -235,4 +244,47 @@ body
 {
 	background-color: #3BC0E4;
 }
-
+#window #content .break
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	clear: both;
+	width: 100%;
+	height: 7px;
+	background-color: #F7F8F8;
+}
+#window #content ul#slider
+{
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	height: 150px;
+	padding-bottom: 6px;
+	margin-left: 35px;
+}
+#window #content ul#slider li
+{
+	border-radius: 3px;
+	list-style: none;
+	margin: 25px;
+	float: left;
+	width: 150px;
+	height: 150px;
+	background-color: #ECEFF0;
+}
+#window #content ul#slider li.item-1
+{
+	background-color: #00CCE8;
+}
+#window #content ul#slider li.item-2
+{
+	background-color: #8ABF5B;
+}
+#window #content ul#slider li.item-3
+{
+	background-color: #F6B26B;
+}
+#window #content ul#slider li.item-4
+{
+	background-color: #BA3087;
+}
